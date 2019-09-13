@@ -14,9 +14,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="andrio"
-        android:hint="peter"
-        android:textSize="35sp"
+        android:text="abdallah"
+        android:textSize="32sp"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
