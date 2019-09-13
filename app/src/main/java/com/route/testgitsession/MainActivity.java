@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText editText = findViewById(R.id.edit);
+        final EditText editText = findViewById(R.id.edit);
         final Button button = findViewById(R.id.button);
         editText.setText("Testing Git");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "clicked", Toast.LENGTH_SHORT).show();
+                editText.setText("text");
             }
         });
     }
