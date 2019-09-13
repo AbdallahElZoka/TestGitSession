@@ -17,5 +17,11 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.edit);
         final Button button = findViewById(R.id.button);
         editText.setText("Testing Git");
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button.setText("Changed");
+            }
+        });
     }
 }
