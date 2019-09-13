@@ -3,6 +3,7 @@ package com.route.testgitsession;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EditText editText = findViewById(R.id.edit);
-        Button button = findViewById(R.id.button);
+        final Button button = findViewById(R.id.button);
         editText.setText("Testing Git");
     }
 }
